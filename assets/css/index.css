@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 35px;
+    background-color:#121213;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    
+    position: sticky;
+    
+    text-decoration: none;
+    width: 100%;
+    background-size: cover;
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    
+}
+header nav ul li a {
+    
+    color: #fffdfa;
+    padding: 10px 15px;
+    text-decoration: none; 
+    justify-content: space-between;
+    
+    
+}
+
+header nav ul li a:hover {
+    background-color: #FDFEFF;
+    color: #121213;
+    text-shadow: none;
+}
+
+header h1 {
+    color: #fffdfa;
+    
+}
+
+.hero {
+    background-image: url("../images/bg-1.jpg");
+    background-position: left;
+    background-size: cover;
+    height: 100vh;
+    background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+footer {
+    background:#121213;
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #fffdfa;
+}
+footer h3   {
+    
+    color: #fffdfa;
+    font-size: 30px;
+    margin: 0;
+}
+footer  div {
+    
+    line-height: 1.5;
+    text-align: right;
+}
+
+footer a {
+    color: #fffdfa;
+}
+.section-title {
+    font-size: 55px;
+    color: #121213;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+  }
+  
+  .primary-border {
+    border-color: #121213;
+  }
+
+  .about-me {
+    text-align: center;
+  }
+  .profile-bio {
+    width: 60%;
+    height: 20%;
+    margin: 0 auto 30px auto;
+    background:#121213;
+    color: #fffdfa;
+    overflow: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  .profile-bio img {
+    width: 35%;
+    float: left;
+  }
+  .profile-info {
+    padding: 35px;
+    float: left;
+    width: 65%;
+  }
+  .text-left {
+    text-align: left;
+}
+
+.my-work {
+    justify-content: center;
+    text-align: center;
+}
+
+.project-row1 {
+    display: flex;
+    width: 60%;
+    margin:10px auto;
+    border: 1px rgb(17, 1, 1) solid;
+    height: 300px; 
+    
+}
+
+    
+.project-row2, .project-row3 {
+    display: flex;
+    width: 60%;
+    margin:10px auto;
+    justify-content: space-between;
+    height: 150px;
+    
+    
+}
+
+.project-row2 div, .project-row3 div{
+    display: flex;
+    border: 1px #ccc solid; 
+    flex-basis: 49%;
+}
+
+
+.image-1 {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    flex: 1;
+    text-decoration: none;
+}
+.project-row1 h3, .project-row2 h3, .project-row3 h3 {
+    background-color:#fffdfa ;
+    width: 13%;
+    text-align:left;
+    position: relative;
+    color: #121213;
+    opacity: .6;
+    z-index: -1;
+}
+.image-2 {
+    background-image: url("../images/RG.jpg");
+    background-size: cover;
+    flex: 1;
+    text-decoration: none;
+}
+
+.image-3 {
+    background-image: url("../images/p3.jpg");
+    background-size: cover;
+    flex: 1;
+    text-decoration: none;
+}
+
+.image-4 {
+    background-image: url("../images/p4.jpg");
+    background-size: cover;
+    flex: 1;
+    text-decoration: none;
+}
+
+.image-5 {
+    background-image: url("../images/p1.jpg");
+    background-size: cover;
+    flex: 1;
+    text-decoration: none;
+}
+
+.image-1:hover{
+    opacity: .7;    
+}
+.image-2:hover{
+    opacity: .7;    
+}
+.image-3:hover{
+    opacity: .7;    
+}
+.image-4:hover{
+    opacity: .7;    
+}
+.image-5:hover{
+    opacity: .7;    
+}
+
+.info {
+    height: 600px;
+    
+    text-align: center;
+}
+.title h3 {
+    text-align: center;
+    justify-content: center;
+    margin:10px auto;
+    
+}
+.contact {
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    height: 500px;
+   
+    
+}
+
+.contact-form {
+    width: 60%;
+    padding: 40px 0;
+}
+
+.email-phone {
+    display: flex;
+    justify-content: space-between;
+    
+}
+    
+.contact-info {
+    width: 40%;  
+    margin: 20px 0;
+    line-height: 2.5;
+    font-size: 16px;
+    font-style: normal; 
+    padding: 100px 0;
+}
+.contact-info a {
+    text-decoration: none;
+    text-align: left;
+}
+
+
+.contact-form input, .contact-form textarea {
+    display: block;
+    padding: 7px 15px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    width: 100%; 
+    border-radius: 10px;
+}
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
+  }
+
